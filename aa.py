@@ -12,7 +12,7 @@ try:
 
     # Send SMS
     message = client.messages.create(
-        body="Alooo from jashu",
+        body=" ",
         from_=twilio_number,
         to=to_number
     )
@@ -21,3 +21,4 @@ try:
 
 except Exception as e:
     print(f"❌ Error sending message: {str(e)}")
+
